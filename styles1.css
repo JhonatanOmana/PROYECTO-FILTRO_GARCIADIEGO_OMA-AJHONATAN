@@ -9,13 +9,17 @@
 }
 
 body{
+    margin-left: 100%;
+    margin-top: ;
     background-color: black;
     background-image: url(img/pag1/pexels-pixabay-159400.png)
 }
 
-.conten_usaer{
+.conten_user{
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    text-align: center;
     position: absolute;
     top: 266px;
     left: 492px;
@@ -26,15 +30,47 @@ body{
 }
 
 .log{
-    padding-top: 0.37vw;
+    position: absolute;
+    top: 2.66vw;
+    left: 20.5vw;
     width: 103px;
-    height: 116px
+    height: 116px;
 }
 
+
+
 .text1{
-    font-size: 40px;
-    margin-top: 8vw;
+    position: absolute;
+    top: 7.5vw;
+    left: 15vw;
+    font-size: 2vw;
     color: #000000;
     font-family: a;
+}
+
+.foto{
+    position: absolute;
+    top: 13vw;
+    left: 20.5vw;
+    width: 6vw;
+    height: 6vw;
+}
+
+.text2{
+    position: absolute;
+    top: 18vw;
+    left: 12vw;
+    font-size: 2vw;
+    color: #000000;
+    font-family: a;
+}
+
+.text3{
+    position: absolute;
+    top: 22.5vw;
+    left: 18.5vw;
+    font-size: 1vw;
+    color: #000000;
+    font-family: b;
 }
 
