@@ -1,7 +1,13 @@
+@font-face {
+    font-family: bien;
+    src: url(/img/pag5/text/MYRIADPRO-REGULAR.OTF);
+}
+
 body{
     background-color: black;
     background-image: url(img/pag1/pexels-pixabay-159400.png);
     position: absolute;
+    margin: auto;
 } 
 
 
@@ -53,6 +59,7 @@ body{
     position: absolute;
     top: 2vw;
     left: 17.5vw;
+    width: 7vw;
 }
 
 .texto{
@@ -61,6 +68,7 @@ body{
     text-align: center;
     left: 11.5vw;
     font-size: 1.5vw;
+    font-family: bien;
 }
 
 .texto1{
@@ -126,4 +134,12 @@ body{
     left: 2.3vw;
     top: -0.3vw;
     color: white;
+}
+
+.cuadroNaranja:hover{
+    background-color: rgb(196, 128, 4);
+}
+
+.ingresa:hover{
+    text-decoration: underline;
 }
