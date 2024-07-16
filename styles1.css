@@ -1,0 +1,40 @@
+@font-face {
+    font-family: a;
+    src: url(./img/pag5/text/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: b;
+    src: url(./img/pag5/text/MyriadPro-Light.otf);
+}
+
+body{
+    background-color: black;
+    background-image: url(img/pag1/pexels-pixabay-159400.png)
+}
+
+.conten_usaer{
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 266px;
+    left: 492px;
+    width: 936px;
+    height: 549px;
+    background-color: #fff;
+    border-radius: 3vw;
+}
+
+.log{
+    padding-top: 0.37vw;
+    width: 103px;
+    height: 116px
+}
+
+.text1{
+    font-size: 40px;
+    margin-top: 8vw;
+    color: #000000;
+    font-family: a;
+}
+
