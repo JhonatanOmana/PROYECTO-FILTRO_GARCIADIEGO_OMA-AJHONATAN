@@ -131,6 +131,17 @@ body{
     top: 19.5vw;
     left: 5vw;
 }
+
+.guardarBoton{
+    position: absolute;
+    top: 38vw;
+    width: 5vw;
+    height: 1.3vw;
+    left: 33vw;
+    border-radius: 1vw;
+    background-color: #ff6f2c;
+    
+}
     
 
 
