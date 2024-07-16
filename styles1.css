@@ -9,10 +9,11 @@
 }
 
 body{
-    margin-left: 100%;
-    margin-top: ;
     background-color: black;
-    background-image: url(img/pag1/pexels-pixabay-159400.png)
+    background-image: url(img/pag1/pexels-pixabay-159400.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 
 .conten_user{
@@ -21,20 +22,20 @@ body{
     flex-direction: column;
     text-align: center;
     position: absolute;
-    top: 266px;
-    left: 492px;
-    width: 936px;
-    height: 549px;
+    top: 7.66vw;
+    left: 26vw;
+    width: 46.36vw;
+    height: 26vw;
     background-color: #fff;
     border-radius: 3vw;
 }
 
 .log{
     position: absolute;
-    top: 2.66vw;
-    left: 20.5vw;
-    width: 103px;
-    height: 116px;
+    top: 2vw;
+    left: 20vw;
+    width: 6vw;
+    height: 6vw;
 }
 
 
