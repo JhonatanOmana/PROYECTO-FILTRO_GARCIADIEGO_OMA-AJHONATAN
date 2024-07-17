@@ -42,6 +42,7 @@ body{
     border-radius: 1vw;
     top: 13vw;
     left: 22.5vw;
+    padding-left: 1.5vw;
 }
 
 .cuadroNaranja{
@@ -143,8 +144,8 @@ body{
 .candado1{
     position: absolute;
     width: 5vw;
-    height: 2.5vw;
-    top: 1vw;
+    height: 3.5vw;
+    top: 0.5vw;
     left: 4vw;
 }
 
@@ -176,3 +177,75 @@ body{
     font-size: 1.1vw;
     color: gray;
 }
+
+.question{
+    color: gray;
+}
+
+.pregunta{
+    position: absolute;
+    color: gray;
+    font-size: 1.2vw;
+    top: 16.5vw;
+    left: 30vw;
+}
+
+
+.Menu{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.Bmenu{
+    padding-left: 5vw;
+    margin-top: 0;
+    margin-left: -2vw;
+    width: 70%;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Regular;
+    font-size: 1vw;
+}
+
+#NavText{
+    position: absolute;
+    margin-top: 0.3vw;
+    margin-left: 0.5vw;
+}
+
+.Bmenu img{
+    width: 1.5vw;
+}
+
+#LogoNav{
+    width: 3vw;
+}
+
+.Ajustes{
+    padding-right: 2vw;
+    margin-top: 0;
+    width: 30%;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Ajustes img{
+    width: 1vw;
+    height: 1vw;
+    padding-left: 1vw;
+}
+
+#CaraPedro{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+

@@ -28,6 +28,17 @@ body{
     height: 26vw;
     background-color: #fff;
     border-radius: 3vw;
+    animation-name: primer;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes primer {
+    0%{opacity: 1;}
+    40%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+    
 }
 
 .log{
@@ -74,4 +85,341 @@ body{
     color: #000000;
     font-family: b;
 }
+
+
+.logo1{
+    position: absolute;
+    margin-top: 20vw;
+    animation-duration: 2s; 
+    margin-left: 45vw;
+    animation-name: parpadeo;
+    opacity: 0;
+    animation-delay: 2s;
+}
+
+@keyframes parpadeo {
+    0%{opacity: 0;}
+    30%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 1;}
+    
+}
+
+.barritamenu{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.Bmenu{
+    padding-left: 5vw;
+    margin-top: 0;
+    margin-left: -2vw;
+    width: 70%;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Regular;
+    font-size: 1vw;
+}
+
+#NavText{
+    position: absolute;
+    margin-top: 0.3vw;
+    margin-left: 0.5vw;
+}
+
+.Bmenu img{
+    width: 1.5vw;
+}
+
+#LogoNav{
+    width: 3vw;
+}
+
+.Ajustes{
+    padding-right: 2vw;
+    margin-top: 0;
+    width: 30%;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Ajustes img{
+    width: 1vw;
+    height: 1vw;
+    padding-left: 1vw;
+}
+
+#CaraPedro{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.container{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 93%;
+    overflow: hidden;
+}
+
+.textoPrincipal{
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 2.1vw;
+    font-family: a;
+
+}
+
+.textoSecundario{
+    text-align: center;
+    margin-top: 1.5vw;
+    font-size: 1.5vw;
+    font-family: b;
+
+}
+
+.titulos{
+    margin-left: 4vw;
+    width: 90vw;
+    justify-content: space-around;
+    display: flex;
+    font-size: 1.1vw;
+
+}
+
+.cajas{
+    margin-left: 4vw;
+    width: 90vw;
+    height: 3vw;
+    margin-top: 0.5vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+    
+    
+}
+
+.cajas1{
+    margin-left: 4vw;
+    width: 90vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+}
+
+.cajas2{
+    margin-left: 4vw;
+    width: 90vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+}
+
+.cajas3{
+    margin-left: 4vw;
+    width: 90vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+}
+
+.cajas4{
+    margin-left: 4vw;
+    width: 90vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+}
+
+.cajas5{
+    margin-left: 4vw;
+    width: 90vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+}
+
+svg{
+   
+    width: 9vw;
+    height: 9vw;
+}
+
+circle{
+    width: 9vw;
+    height: 9vw;
+    fill: none;
+    stroke-width: 0.3vw;
+    stroke-dasharray: 50 80;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+
+.c1{
+    position: absolute;
+    margin-top: -3vw;
+    margin-left: 76.4vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;    
+}
+
+.c2{
+    position: absolute;
+    margin-top: -0vw;
+    margin-left: 65.4vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;    
+}
+
+.c3{
+    position: absolute;
+    margin-top: -0vw;
+    margin-left: 65.4vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: green;    
+}
+
+.c4{
+    position: absolute;
+    margin-top: -0vw;
+    margin-left: 65.4vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: red;    
+}
+
+.c5{
+    position: absolute;
+    margin-top: -0vw;
+    margin-left: 65.4vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: green;    
+}
+
+.c6{
+    position: absolute;
+    margin-top: -0vw;
+    margin-left: 65.4vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: orange;    
+}
+
+.porce{
+    margin-top: 0.5vw;
+    margin-left: 12vw;
+    font-size: 0.8vw;
+}
+
+.porce1{
+    margin-top: 0.6vw;
+    margin-left: 5vw;
+    font-size: 0.8vw;
+}
+
+.porce2{
+    margin-top: 0.5vw;
+    margin-left: 10vw;
+    font-size: 0.8vw;
+}
+
+.porce3{
+    margin-top: 0.7vw;
+    margin-left: 9vw;
+    font-size: 0.8vw;
+}
+
+.porce4{
+    margin-top: 0.7vw;
+    margin-left: 5.3vw;
+    font-size: 0.8vw;
+}
+
+.porce5{
+    margin-top: 0.5vw;
+    margin-left: 9vw;
+    font-size: 0.8vw;
+}
+
+
+
+.conteTexto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -0.3vw;
+    font-size: 1.1vw; 
+}
+.conteTexto1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -0.3vw;
+    font-size: 1.1vw; 
+}
+
+.conteTexto2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -0.3vw;
+    font-size: 1.1vw; 
+}
+
+.conteTexto3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -0.3vw;
+    font-size: 1.1vw; 
+}
+
+.conteTexto4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -0.3vw;
+    font-size: 1.1vw; 
+}
+
+.conteTexto5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -0.3vw;
+    font-size: 1.1vw; 
+}
+
+.añade{
+    width: 12vw;
+    height: 2vw;
+    background-color: #ff6f2c;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    margin-left: 45vw;
+    
+}
+
 
