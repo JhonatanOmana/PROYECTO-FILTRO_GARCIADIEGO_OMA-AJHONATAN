@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    background-image: url(img/pag1/pexels-pixabay-159400.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+
+.contenedor{
+    justify-content: center;
+    display: flex;
+}
+
+.lineaBlanca{
+    width: 100vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.cuadroBlanco{
+    position: absolute;
+    top: 8vw;
+    width: 70vw;
+    height: 40vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.loguito1{
+    position: absolute;
+    top: 2vw;
+    left: 32vw;
+    width: 7vw;
+}
+
+.cuadroGris1{
+    position: absolute;
+    width: 22vw;
+    height: 4vw;
+    background-color: gray;
+    border-radius: 1vw;
+    top: 12vw;
+    left: 24vw;
+}
+
+.cuadroGris2{
+    position: absolute;
+    width: 30vw;
+    height: 3vw;
+    background-color: gray;
+    border-radius: 1vw;
+    top: 18vw;
+    left: 20vw;
+}
+
+.cuadroGris3{
+    position: absolute;
+    width: 35vw;
+    height: 13vw;
+    background-color: gray;
+    border-radius: 1vw;
+    top: 23vw;
+    left: 17.5vw;
+}
+
+.boton{
+    position: absolute;
+    top: 38vw;
+    left: 32.5vw;
+    width: 6vw;
+    height: 1.5vw;
+    background-color: orangered;
+    border-radius: 1vw;
+}

@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+    background-image: url(img/pag1/pexels-pixabay-159400.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+} 
+
+.contenedor{
+    justify-content: center;
+    display: flex;
+}
+
+.lineaBlanca{
+    width: 100vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.cuadroBlanco{
+    position: absolute;
+    top: 8vw;
+    width: 70vw;
+    height: 40vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.loguito1{
+    position: absolute;
+    top: 2vw;
+    left: 32vw;
+    width: 7vw;
+}
+
+.question{
+    position: absolute;
+    width: 25vw;
+    height: 2vw;
+    border-radius: 1vw;
+    top: 13vw;
+    left: 22.5vw;
+}
+
+.cuadroNaranja{
+    position: absolute;
+    width: 30vw;
+    height: 19.5vw;
+    background-color:#ff6f2c ;
+    top: 18.5vw;
+    left: 20.3vw;
+    border-radius: 1vw;
+}
+
+.cuadro1{
+    position: absolute;
+    top: 1vw;
+    width: 13vw;
+    height: 8vw;
+    left: 1vw;
+    border-radius:1vw ;
+    background-color: white;
+}
+
+.cuadro2{
+    position: absolute;
+    top: 1vw;
+    width: 13vw;
+    height: 8vw;
+    left: 16vw;
+    border-radius:1vw ;
+    background-color: white;
+}
+.cuadro3{
+    position: absolute;
+    top: 10.5vw;
+    width: 13vw;
+    height: 8vw;
+    left: 1vw;
+    border-radius:1vw ;
+    background-color: white;
+}
+.cuadro4{
+    position: absolute;
+    top: 10.5vw;
+    width: 13vw;
+    height: 8vw;
+    left: 16vw;
+    border-radius:1vw ;
+    background-color: white;
+}
+
+.parche{
+    position: absolute;
+    width: 7vw;
+    height: 3vw;
+    background-color: white;
+    left: 32vw;
+    top: 8.5vw;
+}
+
+.texto1{
+    position: absolute;
+    font-size: 1.2vw;
+    color: black;
+    top: 2.5vw;
+    left: 1.5vw;
+}
+
+.texto2{
+    position: absolute;
+    font-size: 1.2vw;
+    color: black;
+    top: 2.5vw;
+    left: 2vw;
+}
+
+.texto3{
+    position: absolute;
+    font-size: 1.2vw;
+    color: black;
+    top: 2vw;
+    left: 1.5vw;
+}
+
+.texto4{
+    position: absolute;
+    font-size: 1.2vw;
+    color: black;
+    top: 3vw;
+    left: 2vw;
+}
+
+.conf1{
+    position: absolute;
+    width: 2.5vw;
+    height: 2.5vw;
+    left: 5vw;
+    top: 1vw;
+}
+.candado1{
+    position: absolute;
+    width: 5vw;
+    height: 2.5vw;
+    top: 1vw;
+    left: 4vw;
+}
+
+.llave1{
+    position: absolute;
+    width: 3vw;
+    height: 3.5vw;
+    top: 0.5vw;
+    left: 4vw;
+}
+
+.asistente1{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top: 0-5vw;
+    left: 4vw;
+}
+
+.textoParche{
+    position: absolute;
+    width: 20vw;
+    top: -1vw;
+    left: -0.2vw;
+}
+
+.textoParche1{
+    position: absolute;
+    font-size: 1.1vw;
+    color: gray;
+}
