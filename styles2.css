@@ -1,9 +1,9 @@
 body{
     background-color: black;
     background-image: url(img/pag1/pexels-pixabay-159400.png);
-    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin: auto;
-} 
 
 .contenedor{
     justify-content: center;
