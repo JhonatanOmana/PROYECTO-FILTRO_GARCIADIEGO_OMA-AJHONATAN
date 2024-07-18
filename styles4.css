@@ -122,9 +122,19 @@ body{
     left: 32.5vw;
     width: 6vw;
     height: 1.5vw;
-    background-color: orangered;
+    background-color: #FF6F2C;
     border-radius: 1vw;
     font-size: 1vw;
+}
+
+.boton:hover{
+    color: orange;
+}
+
+.guarda{
+    font-size: 1vw;
+    margin-top: 0.08vw;
+    margin-left: 0.5vw;
 }
 
 .textoA{
