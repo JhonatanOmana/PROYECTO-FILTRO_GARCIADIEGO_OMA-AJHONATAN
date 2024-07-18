@@ -198,12 +198,11 @@ body{
 }
 
 .Bmenu{
-    padding-left: 5vw;
+    padding-left: 5.5vw;
     margin-top: 0;
     margin-left: -2vw;
-    width: 70%;
+    width: 140%;
     height: 3.5vw;
-    border-bottom: 2px solid gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -231,7 +230,6 @@ body{
     margin-top: 0;
     width: 30%;
     height: 3.5vw;
-    border-bottom: 2px solid gray;
     display: flex;
     justify-content: right;
     align-items: center;
