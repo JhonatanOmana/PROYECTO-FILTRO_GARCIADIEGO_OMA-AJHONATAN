@@ -14,7 +14,6 @@ body{
     width: 100vw;
     height: 3vw;
     background-color: white;
-    border-radius: 1vw;
 }
 
 .cuadroBlanco{
@@ -72,4 +71,31 @@ body{
     height: 1.5vw;
     background-color: orangered;
     border-radius: 1vw;
+    font-size: 1vw;
+}
+
+.textoA{
+    position: absolute;
+    font-size: 1.1vw;
+    top: 9.5vw;
+    left: 24.4vw;
+    color: gray;
+}
+
+.textoB{
+    position: absolute;
+    font-size: 1.1vw;
+    top: 15.5vw;
+    left: 20.5vw;
+    color: gray;
+}
+}
+
+.textoC{
+    position: absolute;
+    font-size: 1.1vw;
+    top: 20.5vw;
+    left: 17.6vw;
+    color: gray;
+}
 }

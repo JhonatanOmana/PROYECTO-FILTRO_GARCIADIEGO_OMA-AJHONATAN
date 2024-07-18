@@ -10,13 +10,62 @@ body{
     display: flex;
 }
 
-.lineaBlanca{
-    width: 100vw;
-    height: 3vw;
-    background-color: white;
-    border-radius: 1vw;
+.barritamenu{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
 }
 
+.Bmenu{
+    padding-left: 5vw;
+    margin-top: 0;
+    margin-left: -2vw;
+    width: 90vw;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Regular;
+    font-size: 1vw;
+}
+
+#NavText{
+    position: absolute;
+    margin-top: 0.3vw;  
+    margin-left: 0.5vw;
+}
+
+.Bmenu img{
+    width: 1.5vw;
+}
+
+#LogoNav{
+    width: 3vw;
+}
+
+.Ajustes{
+    padding-right: 2vw;
+    margin-top: 0;
+    width: 30%;
+    height: 3.5vw;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Ajustes img{
+    width: 1vw;
+    height: 1vw;
+    padding-left: 1vw;
+}
+
+#CaraPedro{
+    width: 2.5vw;
+    height: 2.5vw;
+}
 .cuadroBlanco{
     position: absolute;
     top: 8vw;
@@ -126,7 +175,7 @@ body{
     position: absolute;
     width: 20vw;
     height: 2.5vw;
-    background-color: white;
+    background-color: white;    
     border-radius: 1vw;
     top: 19.5vw;
     left: 5vw;
@@ -140,7 +189,96 @@ body{
     left: 33vw;
     border-radius: 1vw;
     background-color: #ff6f2c;
-    
+    font-size: 0.5vw;
+}
+
+.parche{
+    position: absolute;
+    width: 8vw;
+    height: 2vw;
+    background-color: white;
+    top: 8.5vw;
+    left: 31.5vw;
+}
+
+.textoParche{
+    position: absolute;
+    color: gray;
+    font-size: 1.6vw;
+    margin-top: -0.001vw;
+    left: 0.7vw;
+}
+
+.texRec1{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 1.5vw;
+    left: 12vw;
+}
+
+.texRec2{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 6.5vw;
+    left: 11.5vw;
+}
+
+.texRec3{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 11.5vw;
+    left: 12vw;
+}
+
+.texRec4{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 16.5vw;
+    left: 11vw;
+}
+
+.textRec1{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 1.5vw;
+    left: 10vw;
+}  
+
+.textRec2{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 6.5vw;
+    left: 12.5vw;
+}  
+
+.textRec3{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 11.5vw;
+    left: 12vw;
+}  
+
+.textRec4{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 16.5vw;
+    left: 13.5vw;
+} 
+
+.TFecha{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 5vw;
+    top: -0.6vw;
+    color: gray;
+}
+
+.TFecha1{
+    position: absolute;
+    font-size: 1.3vw;
+    left: 5vw;
+    top: -0.6vw;
+    color: gray;
 }
     
 
