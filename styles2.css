@@ -4,6 +4,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
+}    
 
 .contenedor{
     justify-content: center;
@@ -38,6 +39,7 @@ body{
 }
 
 .Bmenu img{
+    margin-left: 10.5vw;
     width: 1.5vw;
 }
 
