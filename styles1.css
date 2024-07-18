@@ -258,6 +258,10 @@ body{
      
 }
 
+.tc1{
+    font-size: 0.8vw;
+}
+
 .textoCate{
     margin-left: 3.5vw;
 }
@@ -414,6 +418,12 @@ circle {
     
 }
 
+.botl{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2vw;
+    text-align: center;
+}
 
 
 
