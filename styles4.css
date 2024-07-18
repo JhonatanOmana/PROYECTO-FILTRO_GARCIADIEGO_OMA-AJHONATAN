@@ -4,6 +4,58 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
+}
+
+.Menu{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid gray;
+}
+
+.Bmenu{
+    padding-left: 5.5vw;
+    margin-top: 0;
+    margin-left: -2vw;
+    width: 85.9vw;
+    height: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Regular;
+    font-size: 1vw;
+}
+
+
+.Bmenu img{
+    width: 1.5vw;
+}
+
+#LogoNav{
+    width: 3vw;
+}
+
+.Ajustes{
+    padding-right: 2vw;
+    margin-top: 0;
+    width: 30%;
+    height: 3.5vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Ajustes img{
+    width: 1vw;
+    height: 1vw;
+    padding-left: 1vw;
+}
+
+#CaraPedro{
+    width: 2.5vw;
+    height: 2.5vw;
+}
 
 .contenedor{
     justify-content: center;
@@ -89,7 +141,7 @@ body{
     left: 20.5vw;
     color: gray;
 }
-}
+
 
 .textoC{
     position: absolute;
@@ -97,5 +149,4 @@ body{
     top: 20.5vw;
     left: 17.6vw;
     color: gray;
-}
 }
