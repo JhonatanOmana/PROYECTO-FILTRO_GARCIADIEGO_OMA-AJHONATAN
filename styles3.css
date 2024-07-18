@@ -6,6 +6,210 @@ body{
     margin: auto;
 }
 
-.menu{
-    
+@font-face {
+    font-family: Light;
+    src: url(media/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(media/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: Italica;
+    src: url(media/MYRIADPRO-SEMIBOLDIT.OTF);
+}
+
+.Menu{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid gray;
+}
+
+.Bmenu{
+    padding-left: 5.5vw;
+    margin-top: 0;
+    margin-left: -2vw;
+    width: 140%;
+    height: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Regular;
+    font-size: 1vw;
+}
+
+
+.Bmenu img{
+    width: 1.5vw;
+}
+
+#LogoNav{
+    width: 3vw;
+}
+
+.Ajustes{
+    padding-right: 2vw;
+    margin-top: 0;
+    width: 30%;
+    height: 3.5vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.Ajustes img{
+    width: 1vw;
+    height: 1vw;
+    padding-left: 1vw;
+}
+
+#CaraPedro{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.con_dele{
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Regular;
+    font-size: 1vw;
+    background-color: #fff;
+    width: 83vw;
+    border-radius: 1vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+svg{
+    width: 9vw;
+    height: 9vw;
+}
+
+circle {
+    width: 9vw;
+    height: 9vw;
+    fill: none;
+    stroke-width: 0.3vw;
+    stroke-dasharray: 80 80;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+
+.c1{
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 68vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #FF0000;
+}
+
+.t1{
+    font-size: 0.8vw;
+}
+
+.c2{
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 68vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #FF0000;
+}
+
+.t2{
+    font-size: 0.8vw;
+}
+
+.c3{
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 68vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #00D010;
+}
+
+.t3{
+    font-size: 0.8vw;
+}
+
+.c4{
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 68vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #FF0000;
+}
+
+.t4{
+    font-size: 0.8vw;
+}
+
+.c5{
+    position: absolute;
+    margin-top: 0vw;
+    margin-left: 68vw;
+    width: 2.6vw;
+    height: 2.6vw;
+    stroke: #00D010;
+}
+
+.t5{
+    font-size: 0.8vw;
+}
+
+.Dele_ico{
+    position: absolute;
+    margin-left: 87vw;
+    margin-top: -2.7vw;
+    width: 1.5vw;
+    height: 2vw;
+}
+
+.bar p{
+    width: 12vw;
+}
+
+.icono{
+    margin-top: 3vw;
+    text-align: center;
+    color: #fff;
+}
+
+.img1{
+    width: 5vw;
+}
+
+.icono p{
+    margin-top: 0;
+    font-size: 1.2vw;
+}
+
+.botG{
+    color: #fff;
+    text-align: center;
+    margin-top: 4vw;
+    margin-left: 45vw;
+    border-radius: 1vw;
+    background-color: #FF6F2C;
+    width: 6vw;
+    height: 1.7vw;
+}
+
+.tex1{
+    font-size: 1.3vw;
 }
