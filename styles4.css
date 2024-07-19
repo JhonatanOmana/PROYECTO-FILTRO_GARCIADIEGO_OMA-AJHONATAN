@@ -155,7 +155,6 @@ body{
     color: gray;
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 680px) {
     .contenedor{
         justify-content: center;
@@ -259,11 +258,3 @@ body{
 
     
 }    
-=======
-.botl{
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.2vw;
-    text-align: center;
-}
->>>>>>> a51186a3e77c5bbb1324dc4fc997bcce3cdf2949
