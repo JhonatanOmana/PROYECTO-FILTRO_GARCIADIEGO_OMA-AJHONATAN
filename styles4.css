@@ -11,13 +11,13 @@ body{
     display: flex;
     flex-direction: row;
     border-bottom: 2px solid gray;
+    width: 100vw;
 }
 
 .Bmenu{
     padding-left: 5.5vw;
     margin-top: 0;
-    margin-left: -2vw;
-    width: 85.9vw;
+    width: 140%;
     height: 3.5vw;
     display: flex;
     align-items: center;
@@ -27,9 +27,7 @@ body{
     font-size: 1vw;
 }
 
-
 .Bmenu img{
-    margin-left: 10vw;
     width: 1.5vw;
 }
 

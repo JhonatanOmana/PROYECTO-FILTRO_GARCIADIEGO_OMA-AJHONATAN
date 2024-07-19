@@ -15,15 +15,15 @@ body{
     background-color: #fff;
     display: flex;
     flex-direction: row;
+    border-bottom: 2px solid gray;
+    width: 100vw;
 }
 
 .Bmenu{
-    padding-left: 5vw;
+    padding-left: 3.5vw;
     margin-top: 0;
-    margin-left: -2vw;
-    width: 90vw;
+    width: 140%;
     height: 3.5vw;
-    border-bottom: 2px solid gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,16 +32,16 @@ body{
     font-size: 1vw;
 }
 
+.Bmenu img{
+    width: 1.5vw;
+}
+
 #NavText{
     position: absolute;
     margin-top: 0.3vw;  
     margin-left: 0.5vw;
 }
 
-.Bmenu img{
-    margin-left: 10.5vw;
-    width: 1.5vw;
-}
 
 #LogoNav{
     width: 3vw;
@@ -52,7 +52,6 @@ body{
     margin-top: 0;
     width: 30%;
     height: 3.5vw;
-    border-bottom: 2px solid gray;
     display: flex;
     justify-content: right;
     align-items: center;
