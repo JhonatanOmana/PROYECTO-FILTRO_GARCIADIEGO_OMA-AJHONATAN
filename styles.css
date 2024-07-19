@@ -64,17 +64,18 @@ body{
 
 .texto{
     position: absolute;
-    top: 8vw;
+    top: 8.5vw;
     text-align: center;
     left: 11.5vw;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     font-family: bien;
 }
 
 .texto1{
     position: absolute;
-    top: 12.5vw;
-    left: 10vw;
+    font-size: 0.9vw;
+    top: 13vw;
+    left: 9vw;
     text-align: center;
     color: #afafaf;
 }
@@ -131,9 +132,11 @@ body{
 
 .ingresa{
     position: absolute;
-    left: 2.3vw;
+    left: 1.7vw;
     top: -0.3vw;
     color: white;
+    font-size: 1vw;
+    
 }
 
 .cuadroNaranja:hover{
