@@ -142,8 +142,6 @@ body{
     left: 37vw;
     top: 12vw;
     border-radius: 1vw;
-   
-
 }
 
 .rectangulo1{
@@ -283,5 +281,9 @@ body{
     color: gray;
 }
     
-
-
+.botl{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2vw;
+    text-align: center;
+}

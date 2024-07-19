@@ -234,7 +234,9 @@ body{
     left: 30vw;
 }
 
-
-
-
-
+.botl{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2vw;
+    text-align: center;
+}

@@ -151,3 +151,10 @@ body{
     left: 17.6vw;
     color: gray;
 }
+
+.botl{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2vw;
+    text-align: center;
+}
