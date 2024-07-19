@@ -155,7 +155,6 @@ body{
     color: gray;
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 680px) {
     .contenedor{
         justify-content: center;
@@ -167,7 +166,7 @@ body{
         position: absolute;
         top: 8vw;
         width: 80vw;
-        height: 40vw;
+        height: 60vw;
         margin: auto;
         background-color: white;
         border-radius: 1vw;
@@ -182,65 +181,65 @@ body{
 
     .cuadroGris1{
         position: absolute;
-        width: 27vw;
+        width: 47vw;
         height: 4vw;
         background-color: gray;
         border-radius: 1vw;
         top: 12vw;
-        left: 26vw;
+        left: 16vw;
     }
     
     .cuadroGris2{
         position: absolute;
-        width: 35vw;
+        width: 55vw;
         height: 3vw;
         background-color: gray;
         border-radius: 1vw;
-        top: 18vw;
-        left: 22vw;
+        top: 21vw;
+        left: 12vw;
     }
     
     .cuadroGris3{
         position: absolute;
-        width: 40vw;
+        width: 65vw;
         height: 13vw;
         background-color: gray;
         border-radius: 1vw;
-        top: 23vw;
-        left: 19.5vw;
+        top: 29vw;
+        left: 7.2vw;
     }
 
     .textoA{
         position: absolute;
-        font-size: 1.1vw;
-        top: 9.5vw;
-        left: 26.4vw;
+        font-size: 3vw;
+        top: 6vw;
+        left: 16.4vw;
         color: gray;
     }
     
     .textoB{
         position: absolute;
-        font-size: 1.1vw;
-        top: 15.5vw;
-        left: 22.5vw;
+        font-size: 3vw;
+        top: 14.8vw;
+        left: 12.5vw;
         color: gray;
     }
     
     
     .textoC{
         position: absolute;
-        font-size: 1.1vw;
-        top: 20.5vw;
-        left: 19.6vw;
+        font-size: 3vw;
+        top: 22.9vw;
+        left: 8vw;
         color: gray;
     }
 
     .boton{
         position: absolute;
-        top: 38vw;
-        left: 37.5vw;
-        width: 6vw;
-        height: 1.5vw;
+        top: 48vw;
+        left: 32.5vw;
+        width: 16vw;
+        height: 3.6vw;
         background-color: #FF6F2C;
         border-radius: 1vw;
         font-size: 1vw;
@@ -251,19 +250,11 @@ body{
     }
     
     .guarda{
-        font-size: 1vw;
+        font-size: 3vw;
         margin-top: 0.08vw;
         margin-left: 0.5vw;
     }
     
 
     
-}    
-=======
-.botl{
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.2vw;
-    text-align: center;
 }
->>>>>>> a51186a3e77c5bbb1324dc4fc997bcce3cdf2949
