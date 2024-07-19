@@ -63,11 +63,6 @@ body{
     display: flex;
 }
 
-.lineaBlanca{
-    width: 100vw;
-    height: 3vw;
-    background-color: white;
-}
 
 .cuadroBlanco{
     position: absolute;
@@ -161,3 +156,107 @@ body{
     left: 17.6vw;
     color: gray;
 }
+
+@media only screen and (max-width: 680px) {
+    .contenedor{
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    .cuadroBlanco{
+        position: absolute;
+        top: 8vw;
+        width: 80vw;
+        height: 40vw;
+        margin: auto;
+        background-color: white;
+        border-radius: 1vw;
+    }
+
+    .loguito1{
+        position: absolute;
+        top: 2vw;
+        left: 36.5vw;
+        width: 7vw;
+    }
+
+    .cuadroGris1{
+        position: absolute;
+        width: 27vw;
+        height: 4vw;
+        background-color: gray;
+        border-radius: 1vw;
+        top: 12vw;
+        left: 26vw;
+    }
+    
+    .cuadroGris2{
+        position: absolute;
+        width: 35vw;
+        height: 3vw;
+        background-color: gray;
+        border-radius: 1vw;
+        top: 18vw;
+        left: 22vw;
+    }
+    
+    .cuadroGris3{
+        position: absolute;
+        width: 40vw;
+        height: 13vw;
+        background-color: gray;
+        border-radius: 1vw;
+        top: 23vw;
+        left: 19.5vw;
+    }
+
+    .textoA{
+        position: absolute;
+        font-size: 1.1vw;
+        top: 9.5vw;
+        left: 26.4vw;
+        color: gray;
+    }
+    
+    .textoB{
+        position: absolute;
+        font-size: 1.1vw;
+        top: 15.5vw;
+        left: 22.5vw;
+        color: gray;
+    }
+    
+    
+    .textoC{
+        position: absolute;
+        font-size: 1.1vw;
+        top: 20.5vw;
+        left: 19.6vw;
+        color: gray;
+    }
+
+    .boton{
+        position: absolute;
+        top: 38vw;
+        left: 37.5vw;
+        width: 6vw;
+        height: 1.5vw;
+        background-color: #FF6F2C;
+        border-radius: 1vw;
+        font-size: 1vw;
+    }
+    
+    .boton:hover{
+        color: orange;
+    }
+    
+    .guarda{
+        font-size: 1vw;
+        margin-top: 0.08vw;
+        margin-left: 0.5vw;
+    }
+    
+
+    
+}    

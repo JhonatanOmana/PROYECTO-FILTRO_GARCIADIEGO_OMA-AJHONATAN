@@ -282,7 +282,139 @@ body{
     top: -0.6vw;
     color: gray;
 }
+
+@media only screen and (max-width: 680px) {
+
+    .cuadroGris1{
+        position: absolute;
+        background-color: gray;
+        width: 45vw;
+        height: 25.5vw;
+        left: 15vw;
+        top: 12vw;
+        border-radius: 1vw;
     
+    }
+
+    .cuadroGris2{
+        top: 40vw;
+        left: 15vw;
+        width: 45vw;
+    }
+    
+
+    .cuadroBlanco{
+        position: absolute;
+        top: 8vw;
+        width: 72vw;
+        height: 75vw;
+        margin: auto;
+        background-color: white;
+        border-radius: 1vw;
+    }
+
+    .guardarBoton{
+        position: absolute;
+        top: 68vw;
+        width: 8vw;
+        height: 2vw;
+        left: 32vw;
+        border-radius: 1vw;
+        background-color: #ff6f2c;
+        font-size: 0.5vw;
+    }
+    .loguito1{
+        position: absolute;
+        top: 2vw;
+        left: 32.5vw;
+        width: 7vw;
+    }
+
+    .parche{
+        position: absolute;
+        width: 8vw;
+        height: 2vw;
+        background-color: white;
+        top: 8.5vw;
+        left: 31.9vw;
+    }
+
+    .recta1{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;
+        border-radius: 1vw;
+        top: 4.5vw;
+        left: 5vw;
+    }
+    .recta2{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;
+        border-radius: 1vw;
+        top: 9.5vw;
+        left: 5vw;
+    }
+    .recta3{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;
+        border-radius: 1vw;
+        top: 14.5vw;
+        left: 5vw;
+    }
+    .recta4{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;
+        border-radius: 1vw;
+        top: 19.5vw;
+        left: 5vw;
+    }
+
+    .rectangulo1{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;
+        border-radius: 1vw;
+        top: 4.5vw;
+        left: 5vw;
+    }
+    .rectangulo2{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;
+        border-radius: 1vw;
+        top: 9.5vw;
+        left: 5vw;
+    }
+    .rectangulo3{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;
+        border-radius: 1vw;
+        top: 14.5vw;
+        left: 5vw;
+    }
+    .rectangulo4{
+        position: absolute;
+        width: 33vw;
+        height: 2.5vw;
+        background-color: white;    
+        border-radius: 1vw;
+        top: 19.5vw;
+        left: 5vw;
+    }
+    
+    
+  }
 
 
 
