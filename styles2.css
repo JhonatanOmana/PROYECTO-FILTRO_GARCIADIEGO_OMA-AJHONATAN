@@ -210,56 +210,56 @@ body{
 
 .texRec1{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 1.5vw;
     left: 12vw;
 }
 
 .texRec2{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 6.5vw;
     left: 11.5vw;
 }
 
 .texRec3{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 11.5vw;
     left: 12vw;
 }
 
 .texRec4{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 16.5vw;
     left: 11vw;
 }
 
 .textRec1{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 1.5vw;
     left: 10vw;
 }  
 
 .textRec2{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 6.5vw;
     left: 12.5vw;
 }  
 
 .textRec3{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 11.5vw;
     left: 12vw;
 }  
 
 .textRec4{
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 3vw;
     top: 16.5vw;
     left: 13.5vw;
 } 
@@ -285,51 +285,45 @@ body{
     .cuadroGris1{
         position: absolute;
         background-color: gray;
-        width: 45vw;
-        height: 25.5vw;
-        left: 15vw;
+        width: 70vw;
+        height: 35vw;
+        left: 10vw;
         top: 12vw;
         border-radius: 1vw;
     
     }
 
     .cuadroGris2{
-        top: 40vw;
-        left: 15vw;
-        width: 45vw;
+        top: 50vw;
+        left: 10vw;
+        width: 70vw;
+        height: 35vw;
     }
-    
-.botl{
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.2vw;
-    text-align: center;
-}
 
     .cuadroBlanco{
         position: absolute;
         top: 8vw;
-        width: 72vw;
-        height: 75vw;
+        width: 90vw;
+        height: 100vw;
         margin: auto;
         background-color: white;
-        border-radius: 1vw;
+        border-radius: 3vw;
     }
 
     .guardarBoton{
         position: absolute;
-        top: 68vw;
-        width: 8vw;
-        height: 2vw;
+        top: 90vw;
+        width: 17vw;
+        height: 5vw;
         left: 32vw;
-        border-radius: 1vw;
+        border-radius: 3vw;
         background-color: #ff6f2c;
-        font-size: 0.5vw;
+        font-size: 2.6vw;
     }
     .loguito1{
         position: absolute;
         top: 2vw;
-        left: 32.5vw;
+        left: 40.5vw;
         width: 7vw;
     }
 
@@ -339,7 +333,8 @@ body{
         height: 2vw;
         background-color: white;
         top: 8.5vw;
-        left: 31.9vw;
+        left: 39.9vw;
+        
     }
 
     .recta1{
@@ -349,7 +344,7 @@ body{
         background-color: white;
         border-radius: 1vw;
         top: 4.5vw;
-        left: 5vw;
+        left: 17vw;
     }
     .recta2{
         position: absolute;
@@ -357,8 +352,8 @@ body{
         height: 2.5vw;
         background-color: white;
         border-radius: 1vw;
-        top: 9.5vw;
-        left: 5vw;
+        top: 12.5vw;
+        left: 17vw;
     }
     .recta3{
         position: absolute;
@@ -366,8 +361,8 @@ body{
         height: 2.5vw;
         background-color: white;
         border-radius: 1vw;
-        top: 14.5vw;
-        left: 5vw;
+        top: 20.5vw;
+        left: 17vw;
     }
     .recta4{
         position: absolute;
@@ -375,10 +370,9 @@ body{
         height: 2.5vw;
         background-color: white;
         border-radius: 1vw;
-        top: 19.5vw;
-        left: 5vw;
+        top: 27.5vw;
+        left: 17vw;
     }
-
     .rectangulo1{
         position: absolute;
         width: 33vw;
@@ -386,7 +380,8 @@ body{
         background-color: white;
         border-radius: 1vw;
         top: 4.5vw;
-        left: 5vw;
+        left: 17vw;
+    
     }
     .rectangulo2{
         position: absolute;
@@ -394,17 +389,18 @@ body{
         height: 2.5vw;
         background-color: white;
         border-radius: 1vw;
-        top: 9.5vw;
-        left: 5vw;
+        top: 12.5vw;
+        left: 17vw;
     }
+    
     .rectangulo3{
         position: absolute;
         width: 33vw;
         height: 2.5vw;
         background-color: white;
         border-radius: 1vw;
-        top: 14.5vw;
-        left: 5vw;
+        top: 20.5vw;
+        left: 17vw;
     }
     .rectangulo4{
         position: absolute;
@@ -412,13 +408,91 @@ body{
         height: 2.5vw;
         background-color: white;    
         border-radius: 1vw;
-        top: 19.5vw;
-        left: 5vw;
+        top: 27.5vw;
+        left: 17vw;
+    }
+
+    .texRec1{
+        position: absolute;
+        font-size: 3vw;
+        top: -1.5vw;
+        left: 17vw;
+    }
+    
+    .texRec2{
+        position: absolute;
+        font-size: 3vw;
+        top: 6.5vw;
+        left: 17vw;
+    }
+    
+    .texRec3{
+        position: absolute;
+        font-size: 3vw;
+        top: 14.5vw;
+        left: 17vw;
+    }
+    
+    .texRec4{
+        position: absolute;
+        font-size: 3vw;
+        top: 21.5vw;
+        left: 17vw;
+    }
+    
+    .textRec1{
+        position: absolute;
+        font-size: 3vw;
+        top: -2vw;
+        left: 17vw;
+    }  
+    
+    .textRec2{
+        position: absolute;
+        font-size: 3vw;
+        top: 6.5vw;
+        left: 17vw;
+    }  
+    
+    .textRec3{
+        position: absolute;
+        font-size: 3vw;
+        top: 14.5vw;
+        left: 17vw;
+    }  
+    
+    .textRec4{
+        position: absolute;
+        font-size: 3vw;
+        top: 21.5vw;
+        left: 17vw;
+    } 
+    
+    .TFecha{
+        position: absolute;
+        font-size: 3vw;
+        left: 17vw;
+        top: -0.6vw;
+        color: gray;
+    }
+    
+    .TFecha1{
+        position: absolute;
+        font-size: 3vw;
+        left: 17vw;
+        top: 1vw;
+        color: gray;
+    }
+
+    .textoParche{
+        font-size: 3vw;
+        left: -1.6vw;
     }
     
     
-  }
+    
 
+}
 
 
 

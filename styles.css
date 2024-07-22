@@ -23,7 +23,7 @@ body{
     animation-duration: 3s; 
     margin-left: 45vw;
     animation-name: parpadeo;
-    opacity: 0;
+    opacity: 0; 
 
 }
 
@@ -31,8 +31,8 @@ body{
     0%{opacity: 1;}
     50%{opacity: 0;}
     100%{opacity: 1;}
-    
-}
+
+}   
 
 .cuadroBlanco{
     position: absolute;
@@ -45,7 +45,7 @@ body{
     animation-duration: 1s;
     animation-delay: 3.01s; 
     animation-name: estatico;
-    opacity: 0;
+    opacity: 0; 
     animation-fill-mode: forwards;
 
 }
@@ -53,7 +53,7 @@ body{
 @keyframes estatico {
     100%{opacity: 1;}
     
-}
+} 
 
 .loguito1{
     position: absolute;
@@ -146,3 +146,118 @@ body{
 .ingresa:hover{
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 680px) {
+    .logo1{
+        position: absolute;
+        left: -10vw;
+        margin-top: 20vw;
+        animation-duration: 3s; 
+        margin-left: 45vw;
+    }
+
+    .cuadroBlanco{
+        position: absolute;
+        margin-top: 10vw;
+        left: 5vw;
+        width: 90vw;
+        height: 70vw;
+        background-color: white;
+        border-radius: 3vw;
+       
+    
+    }
+    .loguito1{
+        position: absolute;
+        top: 2vw;
+        left: 40.5vw;
+        width: 7vw;
+    }
+    
+    .texto{
+        position: absolute;
+        top: 8.5vw;
+        text-align: center;
+        left: 24.5vw;
+        font-size: 3.5vw;
+        font-family: bien;
+    }
+    
+    .texto1{
+        position: absolute;
+        font-size: 2vw;
+        top: 18.5vw;
+        left: 17.5vw;
+        text-align: center;
+        color: #afafaf;
+    }
+    
+    .usuario{
+        position: absolute;
+        top: 19.2vw;
+        left: 19.7vw;
+        font-size: 3vw;
+        color: #afafaf;
+    }
+    
+    .contra{
+        position: absolute;
+        top: 28.7vw;
+        left: 19.7vw;
+        font-size: 3vw;
+        color: #afafaf;
+    
+    }
+    
+    .cuadrito1{
+        position: absolute;
+        width: 50vw;
+        height: 4vw;
+        top: 26vw;
+        left: 19.5vw;
+        border-radius: 3vw;
+        border: 0.1vw solid black;
+        font-size: 1.1vw
+    
+    }
+    .cuadrito2{
+        position: absolute;
+        width: 50vw;
+        height: 4vw;
+        top: 35vw;
+        left: 19.5vw;
+        border-radius: 3vw;
+        border: 0.1vw solid black;
+        font-size: 1.1vw
+    
+    }
+    
+    .cuadroNaranja{
+        position: absolute;
+        background-color:#ff6f2c;
+        width: 15vw;
+        height: 4vw;
+        border-radius: 3vw;
+        top: 45vw;
+        left: 36.5vw;
+    }
+    
+    .ingresa{
+        position: absolute;
+        left: 1.7vw;
+        top: -0.8vw;
+        color: white;
+        font-size: 1.8vw;
+        
+    }
+    
+    .cuadroNaranja:hover{
+        background-color: rgb(196, 128, 4);
+    }
+    
+    .ingresa:hover{
+        text-decoration: underline;
+    }
+    
+    
+}    
